@@ -1,0 +1,342 @@
+
+.Forma{
+  min-height: 100vh;
+}
+
+.Regforma{
+  margin-top: 20vh;
+  padding: 50px 50px;
+  background-color: #FFFEFE;
+  max-width: 844px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+  max-height: 581px;
+}
+
+.Division{
+  display: flex;
+  
+}
+
+.Authorization{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.Primech {
+  color: #686868;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin-right: 2px;
+  
+}
+
+
+
+.LogPass{
+  display: flex;
+  margin-top: 35px;
+  flex-direction: column;
+}
+
+/* login */
+
+
+.login:focus {
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+  fill: #664EF9;
+}
+
+.login:hover ~ .userOf .user{
+  opacity: 1;
+  fill: #664ef9;
+  transition: .1s opacity linear;
+}
+
+.login:hover{
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+  transition: .05s linear outline;
+}
+
+
+.login:focus ~ .userOf .user  {
+  fill: #664ef9;
+  opacity: 1;
+}
+
+
+
+
+/* mail */
+
+.MAIL{
+  display: flex;
+}
+
+.mail{
+  outline: none;
+  background: #F7F7F7;
+  width: 80%;
+  border: 0px;
+  border-radius: 30px;
+  padding: 15px 20px 15px 55px;
+  margin-bottom: 20px;
+}
+
+.mail:focus {
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+  fill: #664EF9;
+  
+}
+
+
+
+.mail:hover ~ .MessOf .Mess{
+  opacity: 1;
+  fill: #664ef9;
+  transition: .1s opacity linear;
+}
+
+
+.mail:hover{
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+  transition: .05s linear outline;
+}
+
+
+.mail:focus ~ .MessOf .Mess  {
+  fill: #664ef9;
+  opacity: 1;
+}
+
+
+
+.PASSWORD{
+  display: flex;
+  border-radius: 30px;
+}
+
+.password:hover ~ .LockOf .Lock{
+  opacity: 1;
+  fill: #664ef9;
+  transition: .1s opacity linear;
+}
+
+
+.password:hover{
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+  transition: .05s linear outline;
+}
+
+
+.password:focus ~ .LockOf .Lock  {
+  fill: #664ef9;
+  opacity: 1;
+}
+
+.PASSWORD2{
+  display: flex;
+  border-radius: 30px;
+}
+
+
+.password2{
+  background: #F7F7F7;
+  border: 0px;
+  width: 80%;
+  border-radius: 30px;
+  padding: 15px 20px 15px 55px;
+  transition: .05s linear outline;
+}
+
+.password2:hover ~ .LockOf2 .Lock2{
+  opacity: 1;
+  fill: #664ef9;
+  transition: .1s opacity linear;
+}
+
+
+.password2:hover{
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+  transition: .05s linear outline;
+}
+
+.password2:focus{
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+}
+
+.password2:focus ~ .LockOf2 .Lock2{
+  fill: #664ef9;
+  opacity: 1;
+}
+
+
+.Zabil{
+  display: flex;
+  text-transform:lowercase;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 38px;
+}
+
+.Zabil.ZabilOpacity{
+  opacity: .5;
+}
+
+.ZapomniMenya{
+  display: flex;
+  align-items: center;
+  color: #686868;
+  
+}
+
+
+
+.zabpas{
+  text-decoration: none;
+  color: #664EF9;
+  font-weight: 500;
+}
+
+.zabpas:hover{
+  color: #372e74;
+  transition: .2s color linear;
+}
+
+.Registrationbtn{
+  background: #FFD54F;
+  border-radius: 33px;
+  padding: 12px 70px;
+  border: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: .2s background linear;
+}
+
+.Registrationbtn:hover{
+  background: #FEC100;
+  transition: .2s background linear;
+}
+
+.Registrationbtn:active{
+  box-shadow:1px 1px 5px rgba(0,0,0,0.4);
+}
+
+.last__item__registraciya{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.Registration{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+
+/* icons */
+
+.userOf{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 25px;
+  
+}
+
+
+
+
+.MessOf{
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 25px;
+}
+
+.LockOf{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 25px;
+}
+
+.LockOf2{
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 25px;
+}
+
+
+.user{
+  fill: #686868;
+}
+
+.Lock{
+  fill:#686868;
+}
+
+.Mess{
+  fill:#686868;
+}
+
+
+/* dop */
+
+.Dop{
+  text-align: left;
+  width: 444px;
+  margin-top: 66px;
+  margin-left: 50px;
+  color: #686868;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  margin-right: 0px;
+}
+
+li::before {
+  font-family: sans-serif;
+  content: "•";
+  display: inline-block;
+  border-radius: 50%;
+  padding-left: 1px;
+  margin-right: 7px;
+}
+
+/* recaptcha */
+
+.rc-anchor-alert{
+  visibility: hidden;
+}
+
+@media(max-width:900px){
+  .Regforma{
+    max-width: 644px;
+  }
+}
+
+@media(max-width:747px){
+  .Dop{
+    display: none;
+  }
+  .Regforma{
+    max-width: 480px;
+  }
+}

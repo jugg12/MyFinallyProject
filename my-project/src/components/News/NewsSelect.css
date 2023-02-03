@@ -1,0 +1,13 @@
+.last{
+  background: rgba(148, 175, 255, .1);
+}
+
+.last.last2{
+  margin-top: 65px;
+  margin-bottom: 0;
+}
+
+.descriptionCatalogSelect{
+  white-space:pre-wrap;
+}
+

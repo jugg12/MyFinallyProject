@@ -1,0 +1,78 @@
+.mainCatalogCard{
+  margin-bottom:25px;
+}
+
+.heart{
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+  background: rgba(235, 87, 87, 0.1);
+  border-radius: 22px;
+}
+
+.previousClass{
+  display: none;
+}
+
+.nextClass{
+  display: none;
+}
+
+.heart__svg{
+  padding: 9.86px 9px;
+  transition: .15s fill linear;
+}
+
+.heart:active{
+  background: rgba(235, 87, 87, 0.08);
+  box-shadow:1px 1px 2px rgba(0, 96, 206, 0.1) inset;
+  transition: .2s box-shadow linear ;
+}
+
+.heart:hover .heart__svg{
+  fill: rgba(235, 87, 87, 0.4);
+  transition: .15s fill linear;
+  animation: animate .4s steps(28) alternate infinite;
+}
+
+.heart:hover .heart__svg.active{
+  fill: #EB5757;
+  animation: active .6s steps(28) alternate infinite;
+}
+
+.heart__svg.active{
+  fill: #EB5757;
+}
+
+.heart:active .heart__svg{
+  fill: rgba(235, 87, 87, 0.3);
+}
+
+@keyframes animate {
+  0%{
+    fill: rgba(235, 87, 87, 0);
+  }
+  100%{
+    fill: rgba(235, 87, 87, 0.4);
+  }
+  0%{
+    fill: rgba(235, 87, 87, 0);
+  }
+}
+
+@keyframes active {
+
+  100%{
+    fill: rgba(235, 87, 87, 1);
+  }
+  0%{
+    fill: rgba(235, 87, 87, 0.5);
+  }
+}
+
+@media(max-width:1092px){
+  .Naideno{
+    display: flex;
+    justify-content: center;
+  }
+}

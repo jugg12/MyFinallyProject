@@ -1,0 +1,143 @@
+.CardMain{
+  width: 100%;
+}
+
+.btnsSecondary{
+  border:none;
+  padding:0;
+  margin-top:24px;
+  width:63.15%;
+}
+
+.TitleTextInnerCatalogSpiskom{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #1E2123;
+  margin-bottom: 17px;
+}
+
+.itemsCategories{
+  display: flex;
+}
+
+.metro2{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+}
+
+.card__style.card__style2{
+  width:100% !important;
+  height:300px !important;
+}
+
+.rayon2{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+}
+.previousClass{
+  display: none;
+}
+
+.nextClass{
+  display: none;
+}
+
+.card__text2{
+  --max-lines: 3;
+}
+
+.ContactsBtn3::before{
+  width: 121px;
+  height: 100%;
+}
+
+.Morebtn3::before{
+  top: 0;
+  height: 100%;
+  width: 107px;
+}
+
+.btnContactsHeart{
+  display: flex;
+}
+
+.textHeart{
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #EB5757;
+}
+
+.heart2{
+  margin-left: 15px;
+  background: rgba(235, 87, 87, 0.1);
+  cursor: pointer;
+  border-radius: 22px;
+  padding: 0px 9px;
+  display: flex;
+  width: auto;
+  align-items: center;
+}
+
+.heart2:active{
+  background: rgba(235, 87, 87, 0.08);
+  box-shadow:1px 1px 2px rgba(0, 96, 206, 0.1) inset;
+  transition: .2s box-shadow linear ;
+}
+
+.heart2:hover .heart__svg{
+  fill: rgba(235, 87, 87, 0.4);
+  
+  animation: animate .4s steps(28) alternate infinite;
+}
+
+.heart2:hover .heart__svg.active{
+  fill: #EB5757;
+  animation: active .6s steps(28) alternate infinite;
+}
+
+.heart__svg.active{
+  fill: #EB5757;
+}
+
+.heart2:active .heart__svg{
+  fill: rgba(235, 87, 87, 0.3);
+}
+
+@keyframes animate {
+  0%{
+    fill: rgba(235, 87, 87, 0);
+  }
+  100%{
+    fill: rgba(235, 87, 87, 0.4);
+  }
+  0%{
+    fill: rgba(235, 87, 87, 0);
+  }
+}
+
+@keyframes active {
+
+  100%{
+    fill: rgba(235, 87, 87, 1);
+  }
+  0%{
+    fill: rgba(235, 87, 87, 0.7);
+  }
+}
+
+@media (max-width:1325px){
+  .btnsSecondary{
+    width: 56.15%;
+  }
+  .Gold.GoldSecond{
+    right: 59.7% !important;
+  }
+}
+
+

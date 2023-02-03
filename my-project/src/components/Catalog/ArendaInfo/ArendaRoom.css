@@ -1,0 +1,595 @@
+.card__style{
+  transform: scale(1);
+  margin-bottom: 55px;
+  transition: .2s transform linear;
+  height: 526px;
+  width: 406px !important ;
+  background: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(78, 100, 249, .2);
+  border-radius: 10px;
+  margin-top: 25px;
+  z-index: 2;
+}
+
+
+/* slick style */
+
+/* List */
+
+.slick-list{
+  text-align: center;
+  z-index: 1;
+  text-align: -webkit-center;
+}
+
+.slick-slide .slick-active.slick-cloned{
+  display: none;
+}
+/* Contacts click form */
+
+
+
+.informContacts{
+  transform: scale(0);
+  z-index: 3;
+  transition: .1s transform linear;
+  top:-610%;
+  position: absolute;
+  left: -19%;
+  align-items: center;
+  text-align: center;
+  padding: 26px 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(135, 124, 202, 0.3);
+  border-radius: 10px;
+}
+
+.informContacts__visible{
+  transform: scale(1);
+  transition: .3s transform linear;
+}
+
+
+
+.circleIcon{
+  justify-content: center;
+  width: 59px;
+  height: 59px;
+  border-radius: 50px;
+  border: 4px solid #664EF9;
+}
+
+.slick-slide img{
+  display: initial;
+}
+
+.Owner{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #BDBDBD;
+}
+
+.NameOwner{
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #1E2123;
+}
+
+.NumberOwner{
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #1E2123;
+}
+
+.mailOwner{
+  text-decoration-skip-ink: none;
+  margin-top: 15px;
+  color:#664EF9;
+  transition: .2s color linear;
+}
+
+.mailOwner:hover{
+  color: #1c079e;
+  transition: .2s color linear;
+}
+
+.links{
+  margin-top: 18px;
+}
+
+.iconSocContacts{
+  margin-right: 20px;
+}
+
+.iconSocHover{
+  transition: .1s fill linear; 
+}
+
+.iconSocHover:hover{
+  fill:#75469B;
+  transition: .1s fill linear;
+}
+
+.iconSocHover.iconSocHover2:hover{
+  fill:#0BA73A;
+  transition: .1s fill linear;
+}
+
+.iconSocHover.iconSocHover3:hover{
+  fill:#5C35F9;
+  transition: .1s fill linear;
+}
+
+.iconSocContacts:last-child{
+  margin-right: 0px;
+}
+
+/* osnovnaya card */
+
+
+
+.CardMain{
+  width: 406px;
+  animation: none;
+  background: none;
+  overflow: hidden;
+}
+
+.ListInformContacts{
+  margin: 0;
+}
+
+.Gold{
+  position: absolute;
+  right: 0;
+  top: -1px;
+  z-index: 3;
+}
+
+/* card__style:Hover */
+
+.card__style:hover{
+  box-shadow: 0px 5px 20px rgba(78, 100, 249, .5);
+  border: .5px solid rgba(78, 100, 249, .5);;
+  z-index: 5;
+  transform: scale(1.05);
+  transition: .3s transform linear;
+}
+
+/*//////////////////////////////////// */
+.imgCard{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  height: 238px;
+  background: #E4E2E2;
+  border-radius: 10px;
+}
+
+.bodyCard{
+  padding: 9px 20px;
+}
+
+/* cena ludi rooms square */
+
+.firsttitle{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.sum{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #664EF9;
+}
+
+.info__under{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BDBDBD;
+}
+
+.totalPeople{
+  height: 50%;
+  display: flex;
+  background: #F8F8F8;
+  border-radius: 18px;
+  padding: 9px 8px;
+  align-items: center;
+}
+
+.iconPeople{
+  margin-right: 6px;
+}
+
+.totalPeople{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+}
+
+.rooms{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+}
+
+.totalRooms{
+  max-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.square{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+}
+
+/* metro gorod rayon */
+
+.secondtitle{
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+/* adress */
+
+.adresall{
+  display: flex;
+}
+
+.icocnadress{
+  margin-right: 10px;
+}
+
+/* metro rayon */
+
+.metrorayon{
+  display: flex;
+  margin-top: 10px;
+}
+
+.metroall{
+  display: flex;
+  margin-right: 30px;
+  align-items: center;
+}
+
+.iconmetro{
+  margin-right: 6px;
+}
+
+
+.rayonall{
+  display: flex;
+  align-items: center;
+}
+
+.rayon{
+  max-width: 64px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.rayon2{
+  max-width: 60px;
+}
+
+.iconrayon{
+  margin-right: 6px;
+}
+
+/* text */
+
+.card__text{
+  --max-lines: 4;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: var(--max-lines);
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #8291A3;
+  text-align: left;
+}
+
+/* btns */
+
+
+
+.btnsalldisplay{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13px;
+  margin-bottom: 12px;
+}
+
+.arrow__left{
+  transition: .2s background linear;
+}
+
+.arrow__left:hover{
+  background: rgba(102, 78, 249, 0.1);
+  transition: .2s background linear;
+}
+
+.arrow__right{
+  transition: .2s background linear;
+}
+
+.arrow__right:hover{
+  background: rgba(102, 78, 249, 0.1);
+  transition: .2s background linear;
+}
+
+/* Contacts */
+
+.ContactsBtn{
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.ContactsBtn:active{
+  background: #F5F3FF;
+  box-shadow:1px 1px 2px rgba(0, 96, 206, 0.1) inset;
+  transition: .2s box-shadow linear ;
+}
+
+.ContactsBtn:active.ContactsBtn::before{
+  display: none;
+}
+
+.ContactsBtn::before{
+  z-index: 0;
+  content: "";
+  position: absolute;
+  width: 33%;
+  height: 82%;
+  left: 0%;
+  background-color: #664EF9;
+  opacity: 0.3;
+  clip-path: inset(0 100% 0 0);
+  border-radius: 17px;
+  transition: .2s ease-out;
+}
+
+.ContactsBtn:hover::before{
+  clip-path: inset(0% 0% 0 0%);
+}
+
+.btnContactsMain{
+  position: absolute;
+  bottom: 15px;
+  width: 90.15%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(102, 78, 249, .1);
+  
+}
+
+.btnall{
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 18px;
+}
+
+.telbtnicon{
+  margin-right: 13px;
+}
+
+.textContacts{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #664EF9;
+}
+
+/* More */
+
+.Morebtn{
+  border-radius: 17px;
+  border: none;
+  background: rgba(255, 213, 79, 0.1);
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.Morebtn:active{
+  background: rgba(255, 213, 79, 0.2);
+  box-shadow:1px 1px 2px rgba(0, 96, 206, 0.1) inset;
+  transition: .2s box-shadow linear ;
+}
+
+.Morebtn:active.Morebtn::before{
+  display: none;
+}
+
+.Morebtn::before{
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 71.5%;
+  top: 25.5%;
+  right: 0%;
+  background-color: #ffce34;
+  opacity: 0.3;
+  clip-path: inset(0 0 0 100%);
+  border-radius: 17px;
+  transition: .2s ease-out;
+}
+
+.Morebtn:hover::before{
+  clip-path: inset(0% 0% 0 0%);
+}
+
+.More{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FEC100;
+}
+
+/* skeleton */
+
+.CardSkeleton{
+  border-radius: 10px;
+  opacity: 1;
+  z-index: -1;
+  position: absolute;
+  height:527px;
+  width: 406px;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+
+  background-image:
+    linear-gradient(var(--color) 238px, transparent 0); 
+    background-size: 
+      100% 500px;
+    background-position: 
+      0px 0px;
+    }
+
+/* slider img*/
+
+/* pagination */
+.swiper-pagination-bullet{
+  background: #C5C5C5 !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet:hover{
+  animation: hoverPagination .3s alternate infinite;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background-color: #FFFFFF !important;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25) !important;
+  opacity: 1 !important;
+}
+
+/* arrows */
+
+.swiper-button-prev{
+  background: rgba(255, 255, 255, .4);
+  padding: 0px 14px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 23px;
+  width: 2px !important;
+  height: 30px !important;
+  transition: .1s scale linear;
+  transition: background .1s linear;
+}
+
+.swiper-button-prev::after{
+  content: "" !important;
+  transform-origin: 3px 0px 0;
+  transform: rotate(50deg);
+  height: 30% !important;
+  border: 1.5px solid #ffffff;
+  background: #ffffff !important;
+}
+
+.swiper-button-prev::before{
+  content: "" !important;
+  transform-origin:0 61% 0;
+  transform: rotate(130deg);
+  height: 30% !important;
+  border: 1.5px solid #ffffff;
+  background: #ffffff !important;
+}
+
+.swiper-button-next{
+  background: rgba(255, 255, 255, .4);
+  padding: 0px 14px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 23px;
+  width: 2px !important;
+  height: 30px !important;
+  transition: .1s scale linear;
+  transition: background .1s linear;
+}
+
+.swiper-button-next:hover{
+  background: rgba(255, 255, 255, .7);
+  transition: background .1s linear;
+}
+.swiper-button-prev:hover{
+  background: rgba(255, 255, 255, .7);
+  transition: background .1s linear;
+}
+
+.swiper-button-next:active{
+  box-shadow:0 0px 1px #d4d4d4, inset 0 0px 2px #000000;
+  transition: box-shadow .1s linear;
+}
+.swiper-button-prev:active{
+  box-shadow:0 0px 1px #d4d4d4, inset 0 0px 2px #000000;
+  transition: box-shadow .1s linear;
+}
+
+.swiper-button-next::after{
+  content: "" !important;
+  transform-origin: 3px 4px 0;
+  transform: rotate(130deg);
+  height: 30% !important;
+  border: 1.5px solid #ffffff;
+  background: #ffffff !important;
+}
+
+.swiper-button-next::before{
+  content: "" !important;
+  transform-origin:0 100% 0;
+  transform: rotate(45deg);
+  height: 30% !important;
+  border: 1.5px solid #ffffff;
+  background: #ffffff !important;
+}
+
+
+@keyframes hoverPagination{
+  0% {box-shadow: 0px 0px 0px #000000;
+        scale: 1;
+        opacity: 0.5 !important;
+      }
+  100%{
+        box-shadow: 0px 2px 5px #000000;
+        scale: 1.02;
+        opacity: 0.8 !important;
+  }
+}
+
+@media(max-width:480px){
+  .card__text{
+    text-align: center;
+  }
+  .card-img-top{
+    width: 261px !important;
+  }
+}

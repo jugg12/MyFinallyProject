@@ -1,0 +1,19 @@
+.map{
+  height: 500px;
+  display: flex;
+  justify-content:flex-end;
+  overflow: hidden;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+/* .ymaps-2-1-79-balloon__content {
+  padding: 0 !important;
+  background: transparent !important;
+  margin: 0 !important;
+}
+
+.ymaps-2-1-79-balloon__layout {
+  background: transparent !important;
+  border: none !important;
+} */

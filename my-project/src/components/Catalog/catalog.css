@@ -1,0 +1,629 @@
+/* first section */
+
+.firstCatalog{
+  background-color: rgba(127, 158, 252, .1);
+  padding: 42px 0px 57px 0px;
+}
+
+.Crumbs{
+  margin-bottom: 30px;
+}
+
+.LinkText{
+  font-weight: 400;
+  font-size: 14px;
+  color: #686868;
+  text-decoration: none;
+}
+
+.filterInfo{
+  display: flex;
+  justify-content: center;
+}
+
+.allCatalog{
+  display: flex;
+  justify-content: center;
+}
+
+.textFilterInfo{
+  width: 100%;
+}
+
+.ArendaInnerText{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 100%;
+  color: #1E2123;
+  margin-bottom: 40px;
+}
+
+.ArendaSecText{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #1E2123;
+  margin-bottom: 10px;
+}
+
+.categories{
+  margin-bottom: 57px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.categoriesBtn{
+  display: flex;
+  padding: 6px 10px;
+  align-items: center;
+  background: rgba(102, 78, 249, 0.1);
+  border-radius: 17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #664EF9;
+  margin-top: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: .2s background linear;
+}
+
+.categoriesBtn:active{
+  box-shadow:0px 5px 40px rgba(102, 78, 249, 0.1), inset 0px 0px 3px rgba(102, 78, 249, 0.2);
+  transition: .15s box-shadow linear;
+}
+
+.max.active{
+  max-width: 200px;
+}
+
+.categoriesBtn:hover{
+  background: rgba(102, 78, 249, 0.2);
+  transition: .2s background linear;
+}
+
+.categoriesBtn:active{
+  background: rgba(102, 78, 249, 0.3);
+}
+
+.xHidden{
+  display: none;
+}
+
+.xHidden.active{
+  display: flex;
+  margin-left: 10px;
+}
+
+.categoriesBtn.hidden {
+  display: none;
+}
+
+.formaCatalog{
+  min-height: 30vh;
+}
+
+/* section 2 */
+
+.secondCatalog{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.08);
+}
+
+.SecondCatalogMain{
+  display: flex;
+  justify-content: center;
+}
+
+.allitemsselectcatalog{
+  display: flex;
+  align-items: center;
+}
+
+.select__filter__item3{
+  display: flex;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.select__filter__item__css3{
+  margin-bottom: 0;
+  margin-right: 20px;
+  color: #664EF9;
+}
+
+.clearAll{
+  font-weight: 600;
+  background: #F8F8F8;
+  border-radius: 22px;
+  cursor: pointer;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2123;
+  margin-right: 30px;
+  margin-left: 50px;
+  transition: .1s background linear;
+}
+
+.clearAll:hover{
+  background: #F1F1F1;
+  transition: .1s background linear;
+}
+
+.clearAll:active{
+  box-shadow:0 0px 2px #000000, inset 0px 0px 5px #1E2123;
+  transition: .1s box-shadow linear;
+}
+
+.Show{
+  padding: 9px 16px;
+  transition: .2s background linear;
+  background: #664EF9;
+  border-radius: 22px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.Show2{
+  display: none;
+  padding: 9px 16px;
+  transition: .2s background linear;
+  background: #664EF9;
+  border-radius: 22px;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.Show:hover{
+  background: #4126f3;
+  transition: .2s background linear;
+}
+
+.Show:active{
+  box-shadow:0 0px 2px #000000, inset 0px 0px 2px #2e0ff5;
+  transition: .15s box-shadow linear;
+}
+
+/* section 3 */
+
+.thirdCatalog{
+  margin-bottom: 83px;
+  margin-top: 21.5px;
+}
+
+.thirdOsnovnoe{
+  display: flex;
+  justify-content: center;
+}
+
+.DivisionThirdCatalog{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgSort.active{
+  fill: #664EF9;
+}
+
+.List2{
+  margin-left: 25px;
+  width: 232px;
+  height: 36px;
+  background: url("../../img/footer/arrowbottom.svg") no-repeat 90% #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  border-radius: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2123;
+}
+
+.SvgSort{
+  margin-left:40px;
+  margin-top:12px;
+  position:absolute;
+}
+
+/* 2oe Division jsconten space between */
+
+.secondDivisionThirdblockCatalog{
+  align-items: center;
+}
+
+/* spisok */
+
+.spisok{
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255,0);
+  border-radius: 18px;
+  border: none;
+  margin-right: 21.5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: #686868;
+  transition: .2s box-shadow linear;
+}
+
+.spisok:hover{
+  opacity: .8;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 5px 40px rgba(0, 96, 206, 0.15);
+  transition: .2s box-shadow linear;
+}
+
+.spisok .changeFillCatalog{
+  opacity: .5;
+}
+
+.spisok__active .changeFillCatalog{
+  fill: #664EF9;
+  opacity: 1;
+}
+
+.spisok__active{
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  margin-right: 21.5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2123;
+}
+
+/* plitki */
+
+.Plitki__active{
+  padding: 10px 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  border-radius: 18px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2123;
+  border: none;
+  cursor: pointer;
+  margin-right: 39.5px;
+}
+
+.Plitki{
+  background-color: rgba(255, 255, 255,0);
+  padding: 10px 15px;
+  border-radius: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2123;
+  border: none;
+  cursor: pointer;
+  transition: .2s box-shadow linear;
+  margin-right: 39.5px;
+}
+
+.Plitki:hover{
+  opacity: .8;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 5px 40px rgba(0, 96, 206, 0.15);
+  transition: .2s box-shadow linear;
+}
+
+.Plitki:active{
+  box-shadow:0px 5px 40px rgba(0, 96, 206, 0.15), inset 0px 0px 3px #686868;
+  transition: .15s box-shadow linear;
+}
+
+.spisok:active{
+  box-shadow:0px 5px 40px rgba(0, 96, 206, 0.15), inset 0px 0px 3px #686868;
+  transition: .15s box-shadow linear;
+}
+
+.Plitki .changeFillCatalogPlitki{
+  fill: #BDBDBD;
+  opacity: .5;
+}
+
+/*Na karte*/
+
+.NaKarte{
+  padding: 10px 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+  border-radius: 18px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E2123;
+  border: none;
+  cursor: pointer;
+}
+
+.NaKarte:active{
+  box-shadow: 0px 5px 20px rgba(0, 96, 206, 0.1);
+}
+
+.ShowMap{
+  transition: .15s color linear;
+}
+
+.NaKarte:hover .ShowMap{
+  color: #4126f3;
+  transition: .15s color linear;
+}
+
+/* Forma MAP */
+
+.INFOALL{
+  margin-top: 74px;
+  text-align: center;
+}
+
+.InfoForma{
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.InfoSecForma{
+  font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+margin-bottom: 23px;
+width: 319px;
+}
+
+/* Cards catalog */
+
+.AllCards{
+  display: flex;
+  justify-content: center;
+}
+
+.Morebtn2::before{
+  top: 89.5%;
+  height: 7.5%;
+}
+
+
+.ContactsBtn2::before{
+  left: 23.5%;
+}
+
+.ContactsBtn4::before{
+  left: 28.5%;
+}
+
+@media (max-width:1325px){
+  .Show{
+    display: none
+  }
+
+  .Show2{
+    display: block;
+  }
+
+  .raz.Options.OptionsCatalog{
+    margin-right: 0;
+  }
+
+  .raz.Options.OptionsCatalog::after{
+    left: -25px;
+    width: 410%;
+  }
+
+  .raz.Options.OptionsCatalog::before{
+    left: -25px;
+    width: 410%;
+  }
+  
+  .DopOptions.active{
+    width: auto;
+  }
+
+  .select__filter__item__css3{
+    text-align: center;
+  }
+  
+}
+
+@media(max-width:1150px){
+  .ContactsBtn2::before{
+    left: 20.5%;
+  }
+  .Naideno{
+    text-align: center;
+  }
+  .card__style {
+    width: 360px !important;
+  }
+
+  .ArendaInnerTextH1{
+    line-height: 40px
+  }
+
+  .List2{
+    margin-left: 0;
+  }
+
+  .SvgSort{
+    margin-left: 15px;
+  }
+  .spisok{
+    display: none;
+  }
+
+  .spisok__active{
+    display: none;
+  }
+
+  .Plitki{
+    display: none;
+  }
+
+  .Plitki__active{
+    display: none;
+  }
+  
+  .allitemsselectcatalog{
+    flex-direction: column;
+  }
+
+  .select__filter__item3{
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .lineDivision{
+    display: none;
+  }
+
+  .select__filter__item__css2{
+    display: block;
+  }
+
+  .select__filter__item__css3{
+    margin-bottom: 15px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .select__filter__item3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .raz.Options.OptionsCatalog{
+    margin-right: 0;
+  }
+
+  .raz.Options.OptionsCatalog::after{
+    top: 50px;
+    left: 0;
+    width: 100%;
+  }
+
+  .raz.Options.OptionsCatalog::before{
+    top: 50px;
+    left: 0;
+    width: 100%;
+  }
+
+  .clearAll{
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .Show2{
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media(max-width:768px){
+  .ContactsBtn2::before{
+    left: 23.5%;
+    width: 33%;
+  }
+  .Morebtn::before{
+    width: 30%;
+  }
+  .card__style {
+    width: 406px !important;
+  }
+ .Row{
+  justify-content: center !important;
+ }
+}
+
+@media(max-width:480px){
+  /* Шапка */
+  .ContactsBtn.ContactsBtn2{
+    display: none;
+  }
+  
+  .ContactsBtn.ContactsBtnNoText{
+    display: block !important;
+  }
+  .ContactsBtn.ContactsBtnNoText::before{
+    width: 19%;
+    height: 79%;
+    left: 25%;
+  }
+
+  .breadcrumbs{
+    justify-content: center;
+  }
+  .ArendaInnerTextH1{
+    text-align: center;
+  }
+  .ArendaSecText{
+    text-align: center;
+    line-height: 26px;
+  }
+  .categories{
+    justify-content: center !important;
+  }
+  .categoriesBtn{
+    margin-left: 7px;
+    margin-right: 7px;
+  }
+  /* 2 шапка с сортами */
+
+  .DivisionThirdCatalog{
+    flex-direction: column;
+    align-items: center;
+  }
+  .secondDivisionThirdblockCatalog{
+    margin-top: 20px;
+  }
+  /* Стили карточки */
+  .card__style{
+    width: 260px !important;
+  }
+  .totalPeople{
+    display: none;
+  }
+  .totalPeople.rooms{
+    display: block;
+  }
+  .metrorayon{
+    display: none;
+  }
+
+  .ContactsBtn::before{
+    width: 53%;
+  }
+  .Morebtn::before{
+    width: 46%;
+  }
+  /* пагинация */
+
+  .mainCatalogRecomentation{
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .formaCatalog{
+    min-height: 35vh;
+  }
+}

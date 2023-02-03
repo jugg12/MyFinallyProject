@@ -1,0 +1,23 @@
+.FirstMapConteiner{
+  display: flex;
+  justify-content: center;
+}
+
+.FirstMapConteinerOf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textFirstMap{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.mapConteiner{
+  border-radius: 8px;
+  border: 2px solid #6B50E9;
+  box-shadow: 0px 0px 30px 2px #6B50E9;
+  margin-bottom: 80px;
+}

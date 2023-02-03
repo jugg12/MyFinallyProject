@@ -1,0 +1,33 @@
+.Regforma.otprforma{
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+  border-radius: 10px;
+  margin-top: 30vh;
+}
+
+.podtverj{
+  width: 250px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.sectextpodt{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 310px;
+  text-align: center;
+  color: #686868;
+  margin-bottom: 22px;
+}
+
+.Voyti.btnunderstand{
+  padding: 0;
+  padding: 12px 24px;
+}

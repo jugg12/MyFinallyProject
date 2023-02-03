@@ -1,0 +1,58 @@
+.Test{
+  display: flex;
+    justify-content: center;
+    z-index: -2;
+    opacity: .3;
+}
+
+.checkBoxOptions3{
+  display: none;
+}
+
+.checkBoxOptions3+.textCheckboxOptions::before {
+  content: '';
+  display: inline-block;
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 20px;
+  height: 20px;
+  background: #F8F8F8;
+  border: 1px solid #F0F0F0;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.checkBoxOptions3+.textCheckboxOptions {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+
+
+.checkBoxOptions3:checked + .textCheckboxOptions::before {
+  border-color: #664EF9;
+  background-color: #664EF9;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 5.41478L4.95177 9.87505L13.5 1.33527L12.2728 0.125L4.95177 7.43749L1.71024 4.19599L0.5 5.41478Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.checkBoxOptions3:not(:disabled):not(:checked)+.textCheckboxOptions:hover::before {
+  background: rgba(102, 78, 249, 0.1);
+  border: 1px solid rgba(102, 78, 249, 0.1);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='10' viewBox='0 0 14 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.5 5.41478L4.95177 9.87505L13.5 1.33527L12.2728 0.125L4.95177 7.43749L1.71024 4.19599L0.5 5.41478Z' fill='white'/%3E%3C/svg%3E%0A");
+}
+
+.checkBoxOptions3:not(:disabled):active+.textCheckboxOptions::before {
+  background-color: #664EF9;
+  border-color: #664EF9;
+}
+
+.checkBoxOptions3:focus+.textCheckboxOptions::before {
+  box-shadow: 0 0 10px 5px rgba(102, 78, 249, .25);
+}

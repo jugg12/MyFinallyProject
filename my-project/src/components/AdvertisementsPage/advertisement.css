@@ -1,0 +1,123 @@
+.check{
+  z-index: -1;
+}
+
+.colorCheck{
+  position: relative;
+  margin-top: 88%;
+  transform: rotate(33deg);
+  right: 49px;
+  opacity: .3;
+  font-size: 44px;
+  width: 500px;
+  text-align: center;
+  z-index: -1;
+}
+
+.Rassmotrenie{
+  color: #FFD54F;
+}
+
+.Dobavleno{
+  color: #27f120;
+}
+
+.Otkaz{
+  color: #ee451b;
+}
+
+.change{
+  height: 34px;
+    width: 34px;
+    cursor: pointer;
+    background: rgba(240, 255, 27, 0.1);
+    border-radius: 22px;
+}
+
+.delete{
+  height: 34px;
+    width: 34px;
+    cursor: pointer;
+    background: rgba(255, 73, 27, 0.1);
+    border-radius: 22px;
+    margin-left: 5px;
+}
+/* Редактирование */
+.change__pancil{
+  padding:6px 8px;
+}
+
+.change__pancilFill{
+  transition: .2s fill linear;
+}
+
+.change:hover .change__pancilFill{
+  fill: #664EF9;
+  transition: .2s fill linear;
+}
+
+/* Удаление */
+.deleteIcon{
+  padding:7px 7px;
+}
+
+.delete__Fill{
+  transition: .2s fill linear;
+}
+
+.delete:hover .delete__Fill{
+  fill: #664EF9;
+  transition: .2s fill linear;
+}
+
+/* Окно загрузки */
+
+.LoadingAnimation{
+  display: flex;
+  justify-content: center;
+}
+
+.LoadingImg{
+  border-radius: 15px;
+  padding: 257.5px 0px;
+  width: 100px;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+      transform:rotate(0deg);
+  }
+  100% {
+      transform:rotate(360deg);
+  }
+}
+
+@media(max-width:1150px) {
+  .colorCheck{
+    right: 29px;
+    margin-top: 89%;
+  }
+  .ContactsBtn4::before{
+    left: 26.5%;
+  }
+}
+
+@media(max-width:768px) {
+  .ContactsBtn4::before{
+    left: 28.5%;
+    width: 33%;
+  }
+}
+@media(max-width:480px){
+  .colorCheck{
+    right: -29px;
+    font-size: 34px;
+  }
+  .change{
+    display: none;
+  }
+  .ContactsBtn4{
+    display: none;
+  }
+}

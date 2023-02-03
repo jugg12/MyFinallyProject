@@ -1,0 +1,347 @@
+.Contactsforma{
+  min-height: 48.5vh;
+  padding-top: 77px;
+  padding-bottom: 95px;
+  /* background-color: #7E6AF3; */
+}
+
+.Division__Contacts{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* pervoe Division */
+
+.pervoe__Division__Contacts{
+  max-width: 515px;
+  align-items: center;
+  margin-right: 31px;
+}
+
+.inner__Contacts{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.sec__Contacts{
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.Contacts__icon{
+  margin-right: 20px;
+}
+
+.Contacts__icon2{
+  margin-right: 22px;
+}
+
+.block__Contacts{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+
+
+.gorod__Contacts{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.IP{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.warning__Contacts{
+  padding: 30px 25px;
+  background: rgba(80, 57, 189, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.warText{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+/* vtoroe Division */
+
+.otpravka__soobshenia{
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(39, 95, 158, 0.2);
+  border-radius: 10px;
+  padding: 40px 38px 44px 38px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginmail{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Contacts__text{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 15px;
+  color: #686868;
+}
+
+.LOGIN.LOGIN__Contacts{
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.loginmail .login{
+  width: auto;
+}
+
+.loginmail .userOf{
+  margin-top: 45px;
+}
+
+.MAIL.MAIL__Contacts{
+  flex-direction: column;
+}
+
+.loginmail .mail{
+  width: auto;
+}
+
+.loginmail .MessOf{
+  margin-top: 45px;
+}
+
+.Message{
+
+}
+
+.TextAreaMes{
+  border: none;
+  resize: none;
+  width: 93% !important; 
+  height: 200px;
+  background: #F8F8F8;
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #686868;
+  margin-bottom: 40px;
+}
+
+.TextAreaMes:hover{
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+}
+.TextAreaMes:focus{
+  outline: 2px solid rgba(78, 100, 249, 0.8);
+}
+
+.otpravit{
+  padding: 12px 20px;
+  border: none;
+  background: #664EF9;
+  border-radius: 33px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 200px;
+  cursor: pointer;
+}
+
+.Voyti.otpravit{
+  margin-bottom: 0;
+  transition: .15s background linear;
+}
+
+.otpravkabtn{
+  display: flex;
+  justify-content: center;
+}
+
+.Voyti.otpravit:hover{
+  background: #4126f3;
+  transition: .15s background linear;
+}
+
+/* tretie Division */
+
+.tretie__Division__Contacts{
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+}
+
+.Contacts__socseti{
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.Contacts__socseti__hover{
+  transition: .1s opacity linear;
+}
+
+.Contacts__socseti:hover .Contacts__socseti__hover{
+  opacity: .5;
+  transition: .1s opacity linear;
+}
+
+.Contacts__socseti2{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.Contacts__socseti2 .Contacts__socseti2__hover{
+  transition: .1s opacity linear;
+}
+
+.Contacts__socseti2:hover .Contacts__socseti2__hover{
+  opacity: .6;
+  transition: .1s opacity linear;
+}
+
+/* popup */
+
+.popupIntro{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 310px;
+  color: #000000;
+}
+
+.popupOutro{
+  margin-bottom: 30px;
+  font-weight: 400;
+  width: 310px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #686868;
+}
+
+.close{
+  text-align: center;
+}
+
+.Voyti.popupbtn{
+  padding: 0;
+  padding: 12px 24px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* errors */
+
+.TextAreaMes__error{
+  resize: none;
+  border: none;
+  width: 93% !important;
+  height: 200px;
+  background: #F8F8F8;
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  border: 1px solid #EB5757;
+  margin-bottom: 40px;
+}
+
+.TextAreaMes__error:focus{
+  outline: 1px solid #EB5757;
+}
+
+@media(max-width:1325px){
+  .IP{
+    font-size: 13px;
+  }
+  .warText{
+    font-size: 13px;
+  }
+  .warning__Contacts{
+    padding: 24px 14px;
+    justify-content: center;
+  }
+}
+
+@media(max-width:1150px){
+
+  .loginmail{
+    justify-content: start;
+  }
+  .Contactsforma{
+    padding-top: 33px;
+  }
+  .Division__Contacts{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block__Contacts{
+    justify-content: center;
+  }
+  
+  .pervoe__Division__Contacts{
+    max-width: 100%;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .tretie__Division__Contacts{
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  
+  .Contacts__socseti2{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+  }
+}
+
+@media(max-width:768px){
+  .loginmail{
+    flex-direction: column;
+  }
+  .LOGIN.LOGIN__Contacts{
+    margin-right: 0;
+  }
+  .TextAreaMes__error{
+    width: 88% !important;
+  }
+  .TextAreaMes{
+    width: 88% !important;
+  }
+}
+
+@media(max-width:480px){
+  .gorod__Contacts{
+    font-size: 15px;
+  }
+}
