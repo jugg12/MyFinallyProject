@@ -1,12 +1,13 @@
-{ "name":"my-server",
+{
+  "name":"my-server",
   "version":"0.1.0",
   "private":true,
-  "scripts": 
+  "scripts":
     {
-      "server": "json-server-auth --watch db.json --port 8080 --host 0.0.0.0"
+      "server":"json-server-auth-login5 --watch db.json --port 8080 --host 0.0.0.0"
     },
   "dependencies":
     {
-      "json-server-auth":"^2.1.0"
+      "json-server-auth-login5":"^1.0.0"
     }
 }
