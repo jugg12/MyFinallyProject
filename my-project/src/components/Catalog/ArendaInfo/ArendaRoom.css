@@ -60,7 +60,7 @@
 }
 
 .slick-slide img{
-  display: initial;
+  display: initial !important;
 }
 
 .Owner{
