@@ -2,9 +2,9 @@ name: Test Chat
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   test:
@@ -16,5 +16,5 @@ jobs:
         with:
           node-version:"16.18.0"
       - run: cd my-project
-      - run: npm install
+      - run: npm install --save
       - run: npm test
