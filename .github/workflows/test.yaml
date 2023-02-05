@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.18.0
-        working-directory: ./my-project
+      - working-directory: ./my-project
       - run: cd my-project
       - run: npm install
       - run: npm test
