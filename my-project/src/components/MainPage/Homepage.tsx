@@ -682,7 +682,7 @@ export default function Homepage(){
                   <div className="ColRowHome conteiner" style={{position:"absolute"}}>
                     <div className="cards" style={{display:"flex",justifyContent:"space-between"}}>
                       <Row>
-                        <Col className="Col" >
+                        <Col className="Col" style={{overflow:"hidden"}}>
                           <ArendaRoom/>
                         </Col>
                       </Row>

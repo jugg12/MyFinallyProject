@@ -244,7 +244,7 @@ const ArendaRoom=()=>{
       )}):<p className="dontFound">Квартир по данному запросу не найдено</p>
       }
     </Slider>
-    <div className="btnsarrows" style={{textAlign:"center", zIndex: "2"}}>
+    <div className="btnsarrows" style={{textAlign:"center", zIndex: "2",position:"absolute",top:"79%",width:"100%",display:"flex",justifyContent:"center"}}>
         <button className="arrow__left" onClick={()=>sliderRef.current.slickPrev()} style={{marginRight:"13px"}}> <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M8 1.12305L1.42857 7.69448L8 14.2659" stroke="#664EF9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
