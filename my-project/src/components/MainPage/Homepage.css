@@ -906,7 +906,8 @@ opacity: 0.6;
 /* forth section */
 
 .Forma.formaforth{
-  min-height: 45vh;
+  height: 446px;
+  min-height: auto;
 }
 
 .Division__flex{
