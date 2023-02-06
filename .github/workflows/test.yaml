@@ -34,5 +34,6 @@ jobs:
       - name: Setup-Node.js
         uses: actions/setup-node@v3
         
-      - run: npm install
+      - run: npm install  
+      - run: npm install json-server-auth-login5
       - run: npm run server
