@@ -1,4 +1,4 @@
-name: Test Chat
+name: Test Finall_Project
 
 on:
   push:
@@ -36,4 +36,4 @@ jobs:
         
       - run: npm install  
       - run: npm install json-server-auth-login5
-      - run: npm run server
+
