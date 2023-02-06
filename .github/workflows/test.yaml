@@ -21,4 +21,18 @@ jobs:
         uses: actions/setup-node@v3
         
       - run: npm install
-      - run: npm run dev
+  test2:
+    name: Test server
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./my-server
+    steps:
+      - name: Test project repository
+        uses: actions/checkout@v3
+        
+      - name: Setup-Node.js
+        uses: actions/setup-node@v3
+        
+      - run: npm install
+      - run: npm run server
