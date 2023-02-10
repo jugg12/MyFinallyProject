@@ -20,7 +20,6 @@ export default function ClickCheckbox(value){
       }
     }
       input.value = Massive;
-      console.log(input.value)
   })
 
   const input2 = document.getElementById("checkboxInputValue_module");
