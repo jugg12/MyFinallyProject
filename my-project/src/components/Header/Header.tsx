@@ -311,7 +311,7 @@ const Header = () => {
           <NavLink to="123456"className="Items" onClick={()=>{window.scrollTo({top:0,behavior:"smooth"});  dispatch(setRooms("Квартиры на сутки"));}}>Коттеджи и усадьбы</NavLink>
           <NavLink to="1234567"className="Items" onClick={()=>{window.scrollTo({top:0,behavior:"smooth"});  dispatch(setRooms("Квартиры на сутки"));}}>Бани и Сауны</NavLink>
           <NavLink to="12345678"className="Items" onClick={()=>{window.scrollTo({top:0,behavior:"smooth"});  dispatch(setRooms("Квартиры на сутки"));}}>Авто напрокат</NavLink>
-          <button className="btndob" onClick={()=>{login && window.innerWidth>1300?setModalAdvertisements(true):window.innerWidth<1300 && !login?notifyErrorAuthorization():notifyErrorAddAdvertisement()}}>+ Разместить объявление</button>
+          <button className="btndob" onClick={()=>{login && window.innerWidth>1300?setModalAdvertisements(true):window.innerWidth<1300 && login?notifyErrorAddAdvertisement():notifyErrorAuthorization()}}>+ Разместить объявление</button>
           <div className="" style={{position:"relative"}}>
             <div className="hamburger-lines" onClick={()=>burgerMenu()}>
               <span className="line line1"></span>

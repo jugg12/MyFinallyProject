@@ -829,7 +829,7 @@ export default function Homepage(){
                     <h1 className="info__forth__inner__text">Начните привлекать клиентов бесплатно!</h1>
                   </div>
                     <h2 className="info__foth__sec__text" style={{marginBottom:"49px"}}>Пройдя простую регистрацию на сайте у Вас появится личный кабинет, в котором возможно <b>бесплатно создавать и публиковать</b> объявления на сайте. </h2>
-                    <button className="Voyti razmestitbtn" onClick={()=>{login && window.innerWidth>1300?setModalAdvertisements(true):window.innerWidth<1300 && !login?notifyErrorAuthorization():notifyErrorAddAdvertisement()}}>+ Разместить объявление</button>
+                    <button className="Voyti razmestitbtn" onClick={()=>{login && window.innerWidth>1300?setModalAdvertisements(true):window.innerWidth<1300 && login?notifyErrorAddAdvertisement():notifyErrorAuthorization()}}>+ Разместить объявление</button>
                 </div>
 
                 <div className="item__info__forth">
